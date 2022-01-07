@@ -22,4 +22,3 @@ function saveTask(e) {
 var getTask = localStorage.getItem('task');
 // this is temporarily replacing the inner html of all the textboxes with the last entered input
 $(toDo).html(getTask);
-
