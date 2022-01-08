@@ -19,7 +19,9 @@
 
 ## Demo
 ![Deployed Site](Assets/images/deployed-site.png)
-!(/Users/lesliepatinogonzalez/Desktop/work-day-scheduler/Assets/images/work-day-scheduler.gif)
+![work-day-scheduler](https://user-images.githubusercontent.com/93683598/148630426-95dc02bb-3383-4401-9566-b9b46ed84a17.gif)
+
+
 
 
 ## Authors
