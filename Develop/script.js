@@ -7,18 +7,35 @@ $("#currentDay").text(today.format("MMM Do, YYYY"));
 
 
 for (i = 0; i < saveBtn.length; i++) {
-    $(saveBtn[i]).on("click", saveTask)   
+    $(saveBtn[i]).on("click", saveTask)
 }
 
 function saveTask(e) {
-    var hourSelected = e.currentTarget.dataset.index;
-    var saveText = toDo[hourSelected].value;
-    console.log(saveText);
+    var hourSelected = toDo[e.currentTarget.dataset.index].id;
+    var saveText = toDo[e.currentTarget.dataset.index].value;
+    var newItem = {
+        time: hourSelected,
+        text: saveText
+    }
 
-    //save users input in local storage
-    localStorage.setItem('task', saveText);
+    let savedItems = JSON.parse(localStorage.getItem('tasks'))
+    if (savedItems) {
+        savedItems.push(newItem);
+        localStorage.setItem('tasks', JSON.stringify(savedItems))
+    }
+    else {
+        savedItems = []
+        savedItems.push(newItem)
+        localStorage.setItem('tasks', JSON.stringify(savedItems))
+    }
+    getTodos();
 }
 
-var getTask = localStorage.getItem('task');
-// this is temporarily replacing the inner html of all the textboxes with the last entered input
-$(toDo).html(getTask);
+function getTodos() {
+    var tasks = JSON.parse(localStorage.getItem('tasks'));
+    tasks.forEach(function (task) {
+        $(`#${task.time}`).text(task.text);
+    })
+}
+
+getTodos();
