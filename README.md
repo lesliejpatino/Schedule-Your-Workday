@@ -5,7 +5,7 @@
 
 ## Deployed Site
 
-* [Work Day Scheduler] (https://lesliejpatino.github.io/work-day-scheduler/)
+* [Work Day Scheduler](https://lesliejpatino.github.io/work-day-scheduler/)
 
 
 ## Built With
