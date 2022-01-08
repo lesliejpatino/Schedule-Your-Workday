@@ -27,5 +27,5 @@
 ## Authors
 * **Leslie Patino**
 
-- [My GitHub] (https://github.com/lesliejpatino)
-- [My LinkedIn] (https://www.linkedin.com/in/lesliejpatino/)
+- [Leslie's GitHub](https://github.com/lesliejpatino)
+- [Leslie's LinkedIn](https://www.linkedin.com/in/lesliejpatino/)
