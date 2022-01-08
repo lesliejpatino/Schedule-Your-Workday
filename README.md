@@ -19,7 +19,7 @@
 
 ## Demo
 ![Deployed Site](Assets/images/deployed-site.png)
-(/Users/lesliepatinogonzalez/Desktop/work-day-scheduler/Assets/images/work-day-scheduler.gif)
+!(/Users/lesliepatinogonzalez/Desktop/work-day-scheduler/Assets/images/work-day-scheduler.gif)
 
 
 ## Authors
