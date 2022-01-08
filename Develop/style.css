@@ -30,6 +30,10 @@ body {
     border-radius: 15px;
   }
   
+  #current-time{
+    font-size: 14px;
+  }
+
   .row {
     white-space: pre-wrap;
     height: 80px;

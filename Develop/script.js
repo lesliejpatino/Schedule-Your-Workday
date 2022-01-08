@@ -4,6 +4,7 @@ var saveBtn = $('.saveBtn');
 
 // show the current date
 $("#currentDay").text(today.format("MMM Do, YYYY"));
+$("#currentTime").text(today.format("h:mm a"));
 
 
 for (i = 0; i < saveBtn.length; i++) {
@@ -45,7 +46,6 @@ function trackTime() {
     // this will get the current time
     var currentTime = today.hour();
     var timeBlock = $('.time-block');
-    console.log(timeBlock);
 
     var blockTime = $(".hour");
     blockTime.each(function (block) {
@@ -53,7 +53,7 @@ function trackTime() {
         var morning = this.textContent.split(" ")[1]
 
         if (morning === "PM" && time !== 12) time=time+12
-
+        // this will change the color of the rows depending on the current time
         if (time < currentTime) {
             $(timeBlock[block]).addClass("past");
             $(this).addClass("past");
