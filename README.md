@@ -10,11 +10,11 @@
 
 ## Built With
 
-* [HTML]
-* [CSS]
-* [Javascript]
-* [jQuery]
-* [Moment.js]
+* HTML
+* CSS
+* Javascript
+* jQuery
+* Moment.js
 
 
 ## Demo

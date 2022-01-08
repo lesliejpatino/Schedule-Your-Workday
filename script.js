@@ -38,7 +38,6 @@ function getTodos() {
         $(`#${task.time}`).text(task.text);
     })
 }
-
 getTodos();
 
 
