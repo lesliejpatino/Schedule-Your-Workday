@@ -39,3 +39,34 @@ function getTodos() {
 }
 
 getTodos();
+
+
+function trackTime() {
+    // this will get the current time
+    var currentTime = today.hour();
+    var timeBlock = $('.time-block');
+    console.log(timeBlock);
+
+    var blockTime = $(".hour");
+    blockTime.each(function (block) {
+        var time = parseInt(this.textContent.split(" ")[0]);
+        var morning = this.textContent.split(" ")[1]
+
+        if (morning === "PM" && time !== 12) time=time+12
+
+        if (time < currentTime) {
+            $(timeBlock[block]).addClass("past");
+            $(this).addClass("past");
+        }
+
+        else if (time === currentTime) {
+            $(timeBlock[block]).addClass("present");
+        }
+
+        else {
+            $(timeBlock[block]).addClass("future");
+
+        }
+    })
+}
+trackTime();
