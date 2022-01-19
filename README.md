@@ -29,3 +29,10 @@
 
 - [Leslie's GitHub](https://github.com/lesliejpatino)
 - [Leslie's LinkedIn](https://www.linkedin.com/in/lesliejpatino/)
+
+
+## License
+
+Standard MIT License
+
+[![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/DAVFoundation/captain-n3m0/blob/master/LICENSE)
