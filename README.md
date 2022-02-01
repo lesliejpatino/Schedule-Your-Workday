@@ -1,4 +1,4 @@
-# Work-Day-Scheduler
+# Schedule Your Workday
 
 * This is a daily schedule application that allows the user to save events for each hour of the work day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery and Moment.js.
 
